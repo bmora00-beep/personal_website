@@ -1,0 +1,7 @@
+500000 - maroon
+F5B841 - orange
+F4FF52 - yellow
+53FF45 - green
+1E2EDE - blue
+FFFFFF - white
+332C2C - dark

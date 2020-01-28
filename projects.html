@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ben Mora's Webpage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="benswebpage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="aggie-white">
+<div class="w3-bar aggie-maroon">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-16">About Me</a>
+  <a href="experience.html" class="w3-bar-item w3-button w3-padding-16">Professional Experience</a>
+  <a href="service.html" class="w3-bar-item w3-button w3-padding-16">Service</a>
+  <a href="projects.html" class="w3-bar-item w3-button w3-padding-16">Projects</a>
+</div>
+
+<header class="w3-container w3-padding">
+	<div>
+		<h1 class="w3-xxxlarge aggie-text">PROJECTS</h1>
+		<h2 class="w3-xxlarge aggie-text">ECICS Web Scraper (JavaScript)</h2>
+		<p class="w3-xlarge aggie-text aggie-justify">
+		Built a web scraper that gathers regulatory information on over a 100,000 chemical substances from 
+		<a href="https://ec.europa.eu/taxation_customs/dds2/ecics/chemicalsubstance_consultation.jsp?Lang=en&Cas=&Cus=&CnCode=&EcCode=&UnCode=&Name=&LangNm=en&NomenclatureSystem=&Inchi=&Inchikey=&Characteristic=&sortOrder=1&Expand=true&offset=0&viewVal=List" target="_blank">
+		this website</a>.
+		Scraper uses a headless browser (puppeteer) and node.js to interact elements on page a traverse 
+		to multiple pages on site. Scraper stores information into a Mongo database so that it can be 
+		exported or searched later.</p> 
+		<h2 class="w3-xxlarge aggie-text">Memory Manager (C++)</h2>
+		<p class="w3-xlarge aggie-text aggie-justify">
+		Created custom allocate and deallocate function that managed a block of memory. Used pointer arithmetic
+		to split and merge the block into appropriate chunks that could meet what was being asked for in the 
+		allocate function. </p>
+		<h2 class="w3-xxlarge aggie-text">Custom Shell (C++)</h2>
+		<p class="w3-xlarge aggie-text aggie-justify">
+		Coded a program that prompted a user for a Linux shell command and then executed that command. Handled
+		commands with input and output streams as well as piping. Also implemented some commands to change 
+		directory to parent directory, last visited directory, and other similar commands.</p>
+		<p class="w3-large aggie-text">You can find my GitHub <a href="https://github.com/bmora00-beep" target="_blank">here</a></p>
+	</div>
+</header>
+
+</body>
+</html>
